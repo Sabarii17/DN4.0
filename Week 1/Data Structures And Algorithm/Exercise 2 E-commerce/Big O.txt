@@ -1,0 +1,48 @@
+1. Understanding Asymptotic Notation
+
+ Big O Notation
+
+* Big O notation describes the upper bound of an algorithm's running time.
+
+* It shows how the execution time or memory usage grows with the input size (n).
+
+* Used to evaluate and compare algorithm performance in a hardware-independent way.
+
+ Big O Use
+
+* Helps in choosing the most efficient algorithm.
+
+* Predicts how code performs as data size increases.
+
+* Identifies bottlenecks and scalability issues.
+
+
+2. Best, Average, and Worst-Case Scenarios for Search Operations
+
+ Linear Search:
+
+Best Case:
+
+O(1) — Element is the first item.
+
+Average Case:
+
+O(n) — Element is somewhere in the middle.
+
+Worst Case:
+
+O(n) — Element is the last or not present.
+
+Binary Search (only for sorted data):
+
+Best Case:
+
+O(1) — Element is in the middle.
+
+Average Case:
+
+O(log n) — Each step halves the search space.
+
+Worst Case:
+
+O(log n) — Element is not found after several halvings.
